@@ -1,19 +1,16 @@
 #' Say Hello to the EAGLES
-#' 
 #' This function says Hello to the EAGLES depending on data
 #' 
-#'@param eagles character, the names of the EAGLES to be greeted
-#'@param daytime character, optional, either "morning" or "evening"
-#'
-#'@return Nothing, just say hello
-#' 
-#' @importFrom lubridate hour
-#'
-#'@export 
+#'  @param eagles character, the names of the EAGLES to be greeted
+#'  @param daytime character, optional, either "morning" or "evening"
+#'  @return Nothing, it will say hello
+#'  @importFrom lubridate hour
+#'  @export 
 
 hello_eagles<-function(eagles, daytime ="auto"){
+  #decide which daytime it is
   
-  if(daytime=="auto"){  
+  if(daytime== "auto"){  
   time<- Sys.time()
   time_hour<-hour(time)
   
