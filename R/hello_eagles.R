@@ -7,6 +7,8 @@
 #'
 #'@return Nothing, just say hello
 #' 
+#' @importFrom Lubridate hour
+#'
 #'@export 
 
 hello_eagles<-function(eagles, daytime ="auto"){
