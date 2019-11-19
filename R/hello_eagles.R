@@ -7,7 +7,7 @@
 #'
 #'@return Nothing, just say hello
 #' 
-#' @importFrom Lubridate hour
+#' @importFrom lubridate hour
 #'
 #'@export 
 
