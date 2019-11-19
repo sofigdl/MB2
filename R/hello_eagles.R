@@ -5,10 +5,10 @@
 #'@param eagles character, the names of the EAGLES to be greeted
 #'@param daytime character, optional, either "morning" or "evening"
 #'
-#' @return Nothing, just say hello
+#'@return Nothing, just say hello
 #' 
-#' @importFrom lubridate hour
-#'  @export 
+#'@importFrom lubridate hour
+#'@export 
 
 hello_eagles<-function(eagles, daytime ="auto"){
   
