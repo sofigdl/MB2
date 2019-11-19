@@ -2,18 +2,15 @@
 % Please edit documentation in R/hello_eagles.R
 \name{hello_eagles}
 \alias{hello_eagles}
-\title{Say Hello to the EAGLES}
+\title{Say Hello to the EAGLES
+This function says Hello to the EAGLES depending on data}
 \usage{
 hello_eagles(eagles, daytime = "auto")
 }
-\arguments{
-\item{eagles}{character, the names of the EAGLES to be greeted}
-
-\item{daytime}{character, optional, either "morning" or "evening"}
-}
-\value{
-Nothing, just say hello
-}
 \description{
-This function says Hello to the EAGLES depending on data
+@param eagles character, the names of the EAGLES to be greeted
+ @param daytime character, optional, either "morning" or "evening"
+ @return Nothing, it will say hello
+ @importFrom lubridate hour
+ @export
 }

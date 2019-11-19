@@ -40,8 +40,3 @@ hello_eagles<-function(eagles, daytime ="auto"){
   cat(paste0(greeting, paste0(eagles, collapse = ", "), "!"))
 }
 
-<<<<<<< HEAD
-
-=======
- 
->>>>>>> 426eba08fede7fc6bed07d581704104e044710b1
