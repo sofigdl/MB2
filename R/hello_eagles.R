@@ -43,4 +43,4 @@ hello_eagles<-function(eagles, daytime ="auto"){
   cat(paste0(greeting, paste0(eagles, collapse = ", "), "!"))
 }
 
- 
+
